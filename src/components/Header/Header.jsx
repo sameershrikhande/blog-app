@@ -1,5 +1,5 @@
 // import React from 'react'
-import {Container, Logo, LogoutBtn} from '../index'
+import {Container, LogoApp, LogoutBtn} from '../index.js'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -44,7 +44,7 @@ function Header() {
             <nav className='flex navbar bg-base-200'>
                 <div className='mr-4'>
                     <Link to='/'>
-                        <Logo width='70px' />
+                        <LogoApp width='70px' />
                     </Link>
                 </div>
                 <ul className='flex ml-auto'>
