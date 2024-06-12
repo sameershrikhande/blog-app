@@ -39,7 +39,7 @@
 
 ## Deployment
 
-Hosting platform: [Varcel](url)
+Hosting platform: [Varcel](https://blog-app-two-delta.vercel.app/)
 
 ## Authors
 
